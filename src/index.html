@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gulp-boilerplate</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="css/index.css" media="screen">
+  </head>
+  <body>
+    <div class="container" ng-controller='appController as $ctrl'>
+      <div class="jumbotron">
+        <h1 ng-bind="$ctrl.title"></h1>
+      </div>
+    </div>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers/controllers.js"></script>
+  </body>
+</html>
